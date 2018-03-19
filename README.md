@@ -16,9 +16,8 @@
 <br>
 ![image](http://occmuwiio.bkt.clouddn.com/IMG_1391.PNG)
 <br>
-思路：
 
-#### 根据被点击box的索引规则区分 设阶数为:d
+#### 思路:根据被点击box的索引规则区分 设阶数为:d
 
 ##### 1：边角索引规律
 
