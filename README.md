@@ -3,16 +3,17 @@
 
 ## 这是我的个人上线项目，17.5.18上线app store [occupyBox](https://itunes.apple.com/cn/app/occupybox/id1228559683?l=en&mt=8)
 ## 游戏规则：
-每个box都有两个状态，即free状态（数据源为NO）以及 occupied状态（数据源为YES） 初始状态都为free状态
+##### 1.每个box都有两个状态，即free状态（数据源为NO）以及 occupied状态（数据源为YES） 初始状态都为free状态
 
-当box被点击，那么该box的当前状态会变为对立状态，即free->occupied 或者 occupied->free
+##### 2.当box被点击，那么该box的当前状态会变为对立状态，即free->occupied 或者 occupied->free
 
-同时该box相邻（不包含对角线相邻的box）的box状态也会互换
+##### 3.同时该box相邻（不包含对角线相邻的box）的box状态也会互换
 
-当所有的box都变为occupied状态时游戏结束
+##### 4.当所有的box都变为occupied状态时游戏结束
+
 <br>
-如图可以看到，游戏规则其实很简单：
-将所有的方块都变色即为胜利✌️，之前做的时候并没有计算不同阶数的可用性。最高玩到6阶36步走完
+### 如图可以看到，游戏规则其实很简单：
+### 将所有的方块都变色即为胜利✌️，之前做的时候并没有计算不同阶数的可用性。最高玩到6阶36步走完
 <br>
 ![image](http://occmuwiio.bkt.clouddn.com/IMG_1391.PNG)
 <br>
@@ -107,14 +108,3 @@
                      z + d
 
                      z + 1
-                     
-<br>                   
-<br>
-如图可以看到，游戏规则其实很简单：<br>
-将所有的方块都变色即为胜利✌️，之前做的时候并没有计算不同阶数的可用性。最高玩到6阶36步走完
-<br>
-![image](http://occmuwiio.bkt.clouddn.com/IMG_1391.PNG)
-<br>
-### 现在将这个小游戏源码放出来纯属共勉需求，共同学习。
-我也希望更多的个人项目能够开源，毕竟不管好与不好，其中都有值得学习的地方。
-
