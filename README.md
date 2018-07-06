@@ -1,5 +1,6 @@
 # occupyBox
 个人上线项目开源
+(这个源码被很多人拿去伪装成马甲包赚了几十万，你们难道不觉得应该打赏我一下？？？)
 
 ## 这是我的个人上线项目，17.5.18上线app store [occupyBox](https://itunes.apple.com/cn/app/occupybox/id1228559683?l=en&mt=8)
 ## 游戏规则：
